@@ -35,7 +35,7 @@ function App() {
           <Image w={80} src={logoImag} alt="logo da imagem"/>
         </Center>
 
-        <Text align={'center'} fontsize={'3xl'}>Páginade login Aqui</Text>
+        <Text align={'center'} fontsize={'3xl'}>Página de login</Text>
         <Input
          type='text' 
          placeholder='Name'
