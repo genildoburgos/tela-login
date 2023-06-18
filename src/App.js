@@ -119,7 +119,10 @@ function App() {
           </Text>
         )}
 
-    <Button onClick={handleRegister}>Acessar</Button>
+    <Button 
+    onClick={handleRegister} _hover={{background:"#4040ff", color:"#fff"}}
+    
+    >Acessar</Button>
       </Flex>
     </Flex>
   );

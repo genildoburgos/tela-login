@@ -29,7 +29,10 @@ function Home () {
             >
             Seja bem-vindo(a) {name}
             </Text>
-            <Button onClick={handleOut}>Sair</Button>
+            <Button 
+            onClick={handleOut}
+            _hover={{background:"#4040ff", color:"#fff"}}
+            >Sair</Button>
         </Flex>
        </Flex>
 
