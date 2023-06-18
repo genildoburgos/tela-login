@@ -23,11 +23,11 @@ function Home () {
             <Center>
                 <Image src={logIma} alt=""/>
             </Center>
-            <Text 
+            <Text  
             align={"center"}
             fontSize={"3x1"}
             >
-            Seja bem-vindo(a)! {name}
+            Seja bem-vindo(a) {name}
             </Text>
             <Button onClick={handleOut}>Sair</Button>
         </Flex>
